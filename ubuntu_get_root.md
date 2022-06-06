@@ -1,10 +1,11 @@
 ### How to change ubuntu super user password
 
 1. Enter grub menu (holding shift)
-2. Find '        linux    /boot...'
-3. Add in the and of finded line "init=/bin/bash"
-4. Press Ctrl+X
-5. Wait ubuntu for run and write "mount -o remount,rw /"
-6. Write "passwd" and enter new password
-7. Write "reboot -f"
-8. Profit
+2. Press 'e' on ubuntu, you'll see start script. 
+3. Find 'linux    /boot...' line
+4. Add in the end of this line " init=/bin/bash"
+5. Press Ctrl+X
+6. Wait ubuntu su for run and write "mount -o remount,rw /"
+7. Write "passwd" and enter new password
+8. Write "reboot -f"
+9. Profit
